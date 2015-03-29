@@ -1,0 +1,14 @@
+name: ArrowAttack
+main: io.github.trystancannon.adminarrow.core.ArrowAttack
+version: 1.0
+
+commands:
+    arrow:
+        description: Fires an arrow from the you to the specified player.
+        usage: /<command> [user name]
+        permission: adminarrow.arrow
+        
+permissions:
+    arrow.admin:
+        description: Allows for the use of /arrow.
+        deafult: op
